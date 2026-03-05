@@ -1,28 +1,78 @@
 {
   "id": "gavang",
+  "url": "https://tinyurl.com/thapcam",
   "name": "Gà Vàng TV",
-  "url": "https://tt.8share.pro/gavang",
-  "color": "#FBB03C",
-
+  "color": "#1cb57a",
+  "grid_number": 3,
   "image": {
-    "url": "https://tt.8share.pro/assets/gavang_logo.png"
+    "type": "cover",
+    "url": "https://gavang6.live/images/header/gavangtv-logo-v2.png"
   },
-
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
       "channels": [
         {
-          "id": "gavang-live-01",
-          "name": "Trực tiếp bóng đá",
-          "thumb": "https://tt.8share.pro/assets/gavang_logo.png",
-
-          "streams": [
+          "id": "kaytee-a672e89c6e69",
+          "name": "⚽ Hyundai E&C Hillstate W vs Hungkuk W | 17:00 05/03",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://pub-26bab83910ab4b5781549d12d2f0ef6f.r2.dev/gavang_thumbs/kaytee-a672e89c6e69.webp?v=1772712890",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
             {
-              "name": "HD",
-              "url": "https://live8.fastestcdn-global.com/live8/1b9a78786ced4453b2ca5f96182f4956_720/index.m3u8",
-              "type": "hls"
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-22743110d9",
+              "name": "Gà Vàng TV",
+              "contents": [
+                {
+                  "id": "ct-22743110d9",
+                  "name": "Hyundai E&C Hillstate W vs Hungkuk W",
+                  "streams": [
+                    {
+                      "id": "st-22743110d9",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6a84b945ae",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live8.fastestcdn-global.com/live8/1b9a78786ced4453b2ca5f96182f4956_720/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://gavang6.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
