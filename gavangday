@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "kaytee-a672e89c6e69",
-          "name": "⚽ Hyundai E&C Hillstate W vs Hungkuk W",
+          "name": "⚽ Hyundai E&C Hillstate W vs Hungkuk W | 17:00 05/03",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -26,7 +26,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://pub-26bab83910ab4b5781549d12d2f0ef6f.r2.dev/gavang_thumbs/kaytee-a672e89c6e69.webp",
+            "url": "https://pub-26bab83910ab4b5781549d12d2f0ef6f.r2.dev/gavang_thumbs/kaytee-a672e89c6e69.webp?v=1772712890",
             "width": 1600,
             "height": 1200
           },
@@ -40,7 +40,7 @@
           ],
           "sources": [
             {
-              "id": "src-gavang-live",
+              "id": "src-gavang-1",
               "name": "Gà Vàng TV",
               "contents": [
                 {
@@ -49,15 +49,20 @@
                   "streams": [
                     {
                       "id": "st-gavang-1",
-                      "name": "Link Gà Vàng",
+                      "name": "Link 1",
                       "stream_links": [
                         {
-                          "id": "lnk-new-stream",
-                          "name": "Link 1 (720p)",
+                          "id": "lnk-gv-01",
+                          "name": "Link Chính (720p)",
                           "type": "hls",
                           "default": true,
                           "url": "https://live8.fastestcdn-global.com/live8/1b9a78786ced4453b2ca5f96182f4956_720/index.m3u8",
-                          "request_headers": []
+                          "request_headers": [
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                            }
+                          ]
                         }
                       ]
                     }
