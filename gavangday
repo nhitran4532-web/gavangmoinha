@@ -1,0 +1,38 @@
+{
+  "id": "gavang-3glrw7hnll08qdy",
+  "name": "Kwara United - Rivers United",
+  "labels": [
+    {
+      "position": "top-right",
+      "text": "● Live",
+      "color": "#FF0000",
+      "text_color": "#FFFFFF"
+    }
+  ],
+  "image": {
+    "url": "http://tt.8share.pro/images/cache/match-fca5048e31c7ae128d2e17a8640831cc.png"
+  },
+  "type": "single",
+  "display": "thumbnail-only",
+  "sources": [
+    {
+      "id": "gavang-source-3glrw7hnll08qdy",
+      "name": "Gà Vàng TV",
+      "contents": [
+        {
+          "id": "gavang-content-3glrw7hnll08qdy",
+          "name": "Kwara United - Rivers United",
+          "streams": [
+            {
+              "id": "3glrw7hnll08qdy_stream",
+              "name": "Gà Siêu Péo",
+              "remote_data": {
+                "url": "DÁN_CÁI_LINK_M3U8_CỦA_BẠN_VÀO_ĐÂY"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
