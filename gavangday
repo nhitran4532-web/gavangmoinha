@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "kaytee-a672e89c6e69",
-          "name": "⚽ Hyundai E&C Hillstate W vs Hungkuk W | 17:00 05/03",
+          "name": "⚽ Hyundai E&C Hillstate W vs Hungkuk W",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -26,7 +26,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://pub-26bab83910ab4b5781549d12d2f0ef6f.r2.dev/gavang_thumbs/kaytee-a672e89c6e69.webp?v=1772712890",
+            "url": "https://pub-26bab83910ab4b5781549d12d2f0ef6f.r2.dev/gavang_thumbs/kaytee-a672e89c6e69.webp",
             "width": 1600,
             "height": 1200
           },
@@ -40,33 +40,24 @@
           ],
           "sources": [
             {
-              "id": "src-22743110d9",
+              "id": "src-gavang-live",
               "name": "Gà Vàng TV",
               "contents": [
                 {
-                  "id": "ct-22743110d9",
+                  "id": "ct-gavang-1",
                   "name": "Hyundai E&C Hillstate W vs Hungkuk W",
                   "streams": [
                     {
-                      "id": "st-22743110d9",
-                      "name": "KT",
+                      "id": "st-gavang-1",
+                      "name": "Link Gà Vàng",
                       "stream_links": [
                         {
-                          "id": "lnk-6a84b945ae",
-                          "name": "Link 1",
+                          "id": "lnk-new-stream",
+                          "name": "Link 1 (720p)",
                           "type": "hls",
                           "default": true,
                           "url": "https://live8.fastestcdn-global.com/live8/1b9a78786ced4453b2ca5f96182f4956_720/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://gavang6.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
+                          "request_headers": []
                         }
                       ]
                     }
