@@ -1,34 +1,28 @@
 {
-  "id": "gavang-3glrw7hnll08qdy",
-  "name": "Kwara United - Rivers United",
-  "labels": [
-    {
-      "position": "top-right",
-      "text": "● Live",
-      "color": "#FF0000",
-      "text_color": "#FFFFFF"
-    }
-  ],
+  "id": "gavang",
+  "name": "Gà Vàng TV",
+  "url": "https://tt.8share.pro/gavang",
+  "color": "#FBB03C",
+
   "image": {
-    "url": "http://tt.8share.pro/images/cache/match-fca5048e31c7ae128d2e17a8640831cc.png"
+    "url": "https://tt.8share.pro/assets/gavang_logo.png"
   },
-  "type": "single",
-  "display": "thumbnail-only",
-  "sources": [
+
+  "groups": [
     {
-      "id": "gavang-source-3glrw7hnll08qdy",
-      "name": "Gà Vàng TV",
-      "contents": [
+      "id": "live",
+      "name": "🔴 Live",
+      "channels": [
         {
-          "id": "gavang-content-3glrw7hnll08qdy",
-          "name": "Kwara United - Rivers United",
+          "id": "gavang-live-01",
+          "name": "Trực tiếp bóng đá",
+          "thumb": "https://tt.8share.pro/assets/gavang_logo.png",
+
           "streams": [
             {
-              "id": "3glrw7hnll08qdy_stream",
-              "name": "Gà Siêu Péo",
-              "remote_data": {
-                "url": "DÁN_CÁI_LINK_M3U8_CỦA_BẠN_VÀO_ĐÂY"
-              }
+              "name": "HD",
+              "url": "https://live8.fastestcdn-global.com/live8/1b9a78786ced4453b2ca5f96182f4956_720/index.m3u8",
+              "type": "hls"
             }
           ]
         }
